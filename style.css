@@ -60,7 +60,16 @@ h2, h3, h4, h5, p {
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 34px;
+}
+
+h3, p {
+padding-top: 10px;
+font-size: 22px;
+}
+
+h4 {
+  font-size: 22px;
 }
 
 h5 {
@@ -79,15 +88,15 @@ a {
   margin: auto;
 }
 
-.teapic {
-  height: 200px;
-  width: 300px;
-}
-
 #tea1, #tea2, #tea3, #tea4, #tea5 {
   margin-left: 10px;
   margin-right: 10px;
   justify-content: center;
+}
+
+.teapic {
+  height: 200px;
+  width: 300px;
 }
 
 .locations {
@@ -115,17 +124,12 @@ a {
   opacity: 1;
 }
 
-h3, p {
-padding-top: 10px;
-font-size: 22px;
+.contact {
+  height: 200px;
 }
 
 #copy {
   text-align: left;
   margin-left: 20px;
   position: relative;
-}
-
-.contact {
-  height: 200px;
 }
